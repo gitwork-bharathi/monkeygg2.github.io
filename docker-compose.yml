@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  monkeygg2-site:
+    image: bharathiio/monkeygg2-site:latest
+    container_name: monkeygg2-container
+    ports:
+      - "8080:80"
+    restart: always
